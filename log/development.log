@@ -208,3 +208,180 @@ Processing by ProjectsController#show as HTML
 Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.1ms | Allocations: 2286)
 
 
+Started GET "/" for 127.0.0.1 at 2022-03-30 17:21:27 -0700
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.6ms | Allocations: 249)
+  Rendered projects/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 6226)
+  Rendered layout layouts/application.html.erb (Duration: 58.4ms | Allocations: 22341)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.7ms | Allocations: 28109)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/project" for 127.0.0.1 at 2022-03-30 17:21:32 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/project"):
+  
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:21:34 -0700
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.1ms | Allocations: 32)
+  Rendered projects/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 926)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 7125)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.1ms | Allocations: 8006)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/Projects" for 127.0.0.1 at 2022-03-30 17:23:44 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/Projects"):
+  
+Started GET "/Projects" for 127.0.0.1 at 2022-03-30 17:23:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Projects"):
+  
+Started GET "/Project" for 127.0.0.1 at 2022-03-30 17:23:48 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Project"):
+  
+Started GET "/Project" for 127.0.0.1 at 2022-03-30 17:23:50 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Project"):
+  
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:24:03 -0700
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.4ms | Allocations: 238)
+  Rendered projects/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 5519)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 15506)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.8ms | Allocations: 18374)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:29:31 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.6ms | Allocations: 249)
+  Rendered projects/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 5845)
+  Rendered layout layouts/application.html.erb (Duration: 79.1ms | Allocations: 20952)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.7ms | Allocations: 25000)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:29:35 -0700
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.1ms | Allocations: 32)
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 956)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 7799)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms | Allocations: 8324)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:29:41 -0700
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 825)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6932)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms | Allocations: 7282)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:29:42 -0700
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered projects/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 825)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6574)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms | Allocations: 7222)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/projects" for 127.0.0.1 at 2022-03-30 17:29:43 -0700
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered projects/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 825)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6640)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms | Allocations: 7047)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
+Started GET "/" for 127.0.0.1 at 2022-03-30 18:01:54 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:6
+  Rendered projects/_project.html.erb (Duration: 0.3ms | Allocations: 249)
+  Rendered projects/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5845)
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | Allocations: 20486)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.6ms | Allocations: 24829)
+
+
+  
+ActionView::Template::Error (link_tree argument must be a directory):
+  
+app/assets/config/manifest.js:1
